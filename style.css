@@ -168,7 +168,7 @@ background: black;
     .img1{
       height: 160px;
       width: 150px;
-      margin-left: 0%;
+      margin-left: 20%;
     }
     .img2{
       height: 150px;
@@ -178,7 +178,7 @@ background: black;
     .img3{
       height: 160px;
       width: 150px;
-      margin-left: 20%;
+      margin-left: 0%;
   }
   .tit{
     font-size: 20px;
