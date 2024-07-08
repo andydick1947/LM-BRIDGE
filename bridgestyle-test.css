@@ -46,9 +46,7 @@ h2{
     font-size: 25px;
     text-align: center;
 }
-#resptab{
-    overflow-x:auto;
-}
+
 .tblist
 tr:nth-child(even){
     background-color: springgreen; 
