@@ -1,0 +1,89 @@
+
+
+body{
+  box-sizing: border-box;
+  background-color: beige;
+}
+.titl{
+  text-align: center;
+  color:black;
+  font-weight:bold; 
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container{
+  display:grid;
+  height:50vh;
+  grid-template-columns: 1fr 1fr;
+
+  grid-gap: 0.2em;
+  width: 100%;
+ 
+grid-template-areas: 
+"button1 button2" 
+"button3 button4"
+"button5 button6"
+"button7 button8"
+"button9 button10"
+"button11 button12"
+"button13 button14"
+"button15 button16"
+"button17 button18"
+"button19 button20"
+"button21 button22"
+"button23 button24"
+"button25 button26"
+"button27 button28"
+"button29 button30"
+"button31 button32"
+"button33 button34"
+"button35 button36"
+"button37 button38"
+"button39 button40"
+}
+
+.button {
+  
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+   background-color: blue;
+  font-size: 20px;
+  margin: 4px ;
+  cursor: pointer;
+  width: 100%;
+ 
+}
+.button:hover {
+    background-color: lightgrey;
+    color: black;
+    font-weight:bold;
+  
+}
